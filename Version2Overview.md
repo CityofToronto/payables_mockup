@@ -21,7 +21,7 @@
 		{"key":"PostalCode",			"value":"M4M4M4"}
 	],
 	"UserAccountRole":   "PropertyOwner",
-	"Payload":[{"key":"k1","value":"abc-1234-5235f-f135afa"},{"key":"k2","value":"2020-05-12T22:24:24-4000"},{"key":"k3","value":"A somehing more interesting, I'd say !#$%"}]
+	"Payload":[{"key":"k1","value":"abc-1234-5235f-f135afa"},{"key":"k2","value":"2020-05-12T22:24:24-4000"},{"key":"k3","value":"A somehing more interesting, I'd say"}]
 },
 "Payable":{                                // Required - a City record of something that needs to be paid, for payment-result messages this segment specifies what payment was for
     "PayableTimestamp":"2020-07-22T19:40:40.000-4000"     // Required - timestamp of when this payable was determined by the system of record
@@ -70,7 +70,7 @@
       "HST": 0.0,
       "NSFRefNo":"" // Optional - NSF Reference Number, if applicable
     },
-	"Payload":[{"key":"k1","value":"abc-1234-5235f-f135afa"},{"key":"k2","value":"2020-05-12T22:24:24-4000"},{"key":"k3","value":"A somehing more interesting, I'd say !#$%"}]
+	"Payload":[{"key":"k1","value":"abc-1234-5235f-f135afa"},{"key":"k2","value":"2020-05-12T22:24:24-4000"},{"key":"k3","value":"A somehing more interesting, I'd say"}]
 }
 ``` 
 
