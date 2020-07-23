@@ -75,7 +75,7 @@
 ``` 
 
 
-Property Tax account Example - applicable fields
+### Property Tax account Example - applicable fields
 ```javascript
 {
 "Service":{                                             // Required - this references the business function, and optional account information
@@ -146,5 +146,6 @@ Property Tax account Example - applicable fields
       "LateFee":  10.0,       // 
       "NSFRefNo":""           // Optional - NSF Reference Number, if applicable
     }
+}
 }
 ```
